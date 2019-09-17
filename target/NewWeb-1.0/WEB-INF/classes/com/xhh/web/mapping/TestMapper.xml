@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tv.xiyuan.web.dao.UserMapper" >
+    <update id="aa" parameterType="list">
+        update competition_video
+        <trim prefix="set" suffixOverrides=",">
+            <trim prefix= 'scores =case ' suffix= 'end, '>
+                <foreach collection= 'videoList' item= 'item' index= 'index '>
+                    when videoID = #{item.videoID} then scores + 1
+                </foreach>
+            </trim>
+        </trim>
+        where videoID in
+        <foreach collection= 'videoList' index= 'index ' item= 'item' separator= ', ' open= '( ' close= ') '>
+            #{item.videoID}
+        </foreach>
+    </update>
+
+    <update id="bb" parameterType="list">
+        update competition_video
+        set
+        scores =
+        case
+        when videoID = 1 then scores + 1
+        when videoID = 2 then scores + 1
+        when videoID = 3 then scores + 1
+        when videoID = 4 then scores + 1
+        end
+        where videoID in (1, 2, 3)
+    </update>
+
+</mapper>

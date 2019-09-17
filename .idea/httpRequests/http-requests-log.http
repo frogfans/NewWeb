@@ -1,0 +1,419 @@
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T035905.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T034954.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T034928.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T033920.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T033306.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=009&age=20
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T032854.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=009&age=20
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T032555.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=009&age=20
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T031447.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=009&age=20
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T031059.415.html
+
+###
+
+GET http://localhost:8080/xhh/aaa.do?name=zhangsan&no=009&age=20
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T030903.400.html
+
+###
+
+GET http://localhost:8080/xhh/aaa.do?name=zhangsan&no=009&age=20
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T030115.400.html
+
+###
+
+GET http://localhost:8080/xhh/aaa.do?student={"name":"lisi","no":"001","age":12}
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T025240.500.html
+
+###
+
+GET http://localhost:8080/xhh/aaa.do?student={"name":"lisi","no":"001","age":12}&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T025044.500.html
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?student={"name":"lisi","no":"001","age":12}&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T025006.500.html
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?sutdent={"name":"lisi","no":"001","age":12}&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T024949.400.html
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?sutdent={"name":"lisi","no":"001","age":12}&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T024908.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T024322.400.html
+
+###
+
+GET http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T023959.400.html
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T023117.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T022947.200.json
+
+###
+
+GET http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01&age=19
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T022444.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01&age=19
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T022258.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01&age=19
+
+{"name":"lisi","no":"001","age":12}
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01&age=19
+
+{"name":"lisi","no":"001","age":12}
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01&age=19
+
+{"name":"lisi","no":"001","age":12}
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=zhangsan&no=01&age=19
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T021853.400.html
+
+###
+
+POST http://localhost:8080/xhh/aaa.do
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T021642.415.html
+
+###
+
+POST http://localhost:8080/xhh/aaa.do
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T021613.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=wangwu&no=009
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T021540.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=wangwu&no=009&age=15
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T021529.200.json
+
+###
+
+POST http://localhost:8080/xhh/aaa.do?name=wangwu&no=009&age=15
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T021445.415.html
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T115203.200.json
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T115134.400.html
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T115105.200.json
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114743.200.json
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114656.200.json
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114631.200.json
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114606.200.json
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+<> 2019-09-05T114546.200.json
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+<> 2019-09-05T114502.400.html
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+<> 2019-09-05T114436.400.html
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+<> 2019-09-05T114428.400.html
+
+###
+
+POST http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+<> 2019-09-05T114415.400.html
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114342.200.json
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114303.200.json
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114218.200.json
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Content-Type: application/json
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T114131.400.html
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Cache-Control: no-cache
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T113945.400.html
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Cache-Control: no-cache
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T113900.200.json
+
+###
+
+GET http://localhost:8080/xhh/bbb.do?name=wangwu&no=009&age=15
+Cache-Control: no-cache
+
+{"name":"lisi","no":"001","age":12}
+
+<> 2019-09-05T113747.404.html
+
+###
+

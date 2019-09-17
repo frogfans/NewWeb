@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 配置主配置文件的dtd约束 -->
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+
+
+	<settings>
+	<!-- 使用spring后，如果需要输出mybatis的日志，需要如下的配置 -->
+		<setting name="logImpl" value="log4j"/>
+	</settings>
+
+	<typeAliases>
+		<!--<typeAlias type="tv.xiyuan.web.entity.User" alias="user"/>-->
+
+	</typeAliases>
+
+	<!-- pagehelper配置 使用方式详见官网 -->
+	<plugins>
+		<!-- com.github.pagehelper为PageHelper类所在包名 -->
+		<plugin interceptor="com.github.pagehelper.PageInterceptor">
+			<!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+			<property name="helperDialect" value="mysql" />
+		</plugin>
+	</plugins>
+
+
+</configuration>
